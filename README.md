@@ -9,10 +9,10 @@ sudo singularity build singularity-docker-debian9-arm_now Singularity
 
 Using it:
 ```
-./singularity-docker-debian9-arm_now  start armv7-eabihf
+./singularity-docker-debian9-arm_now  start armv7-eabihf --clean
 ```
 
 Using without installing:
 ```
-singularity run shub://truatpasteurdotfr/singularity-docker-debian9-arm_now  start armv7-eabihf
+singularity run shub://truatpasteurdotfr/singularity-docker-debian9-arm_now  start armv7-eabihf --clean
 ```
